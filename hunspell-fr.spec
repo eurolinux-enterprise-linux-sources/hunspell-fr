@@ -1,7 +1,7 @@
 Name: hunspell-fr
 Summary: French hunspell dictionaries
 Version: 4.6
-Release: 3%{?dist}
+Release: 4%{?dist}
 Source: http://www.dicollecte.org/download/fr/hunspell-fr-classique+reforme1990-v%{version}.zip
 Group: Applications/Text
 URL: http://www.dicollecte.org/home.php?prj=fr
@@ -42,6 +42,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.6-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 4.6-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
